@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid lightgreen;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+body {
+  background-color: var(--stone-100);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-page {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 46rem;
+  max-width: 90vw;
+  gap: 2.5rem;
+  padding: 2.5rem;
+}
+
+h1 {
+  font-family: "Young Serif", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
