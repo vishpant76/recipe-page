@@ -27,6 +27,7 @@ body {
 
 .recipe-page {
   background-color: var(--white);
+  /* color: var(--stone-600); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,10 +35,112 @@ body {
   max-width: 90vw;
   gap: 2.5rem;
   padding: 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.dish-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
 }
 
 h1 {
   font-family: "Young Serif", sans-serif;
   font-size: 2.5rem;
   font-weight: 400;
+}
+
+h2 {
+  font-family: "Young Serif", sans-serif;
+  font-size: 1.75rem;
+  color: var(--brown-800);
+  font-weight: 400;
+}
+
+.recipe-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recipe-details .recipe-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.recipe-summary .about-recipe {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: var(--stone-600);
+}
+
+.preparation-info {
+  background-color: var(--rose-50);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.prep-header {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--rose-800);
+}
+.time-allocation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.time-allocation > li,
+.ingredients-list > li {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+.time-allocation > li::before,
+.ingredients-list > li::before {
+  content: "•";
+  color: var(--rose-800);
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.prep-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
 }
