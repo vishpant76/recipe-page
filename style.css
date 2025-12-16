@@ -57,6 +57,10 @@ h2 {
   font-weight: 400;
 }
 
+hr {
+  color: var(--stone-150);
+}
+
 .recipe-details {
   display: flex;
   flex-direction: column;
@@ -186,4 +190,27 @@ ul {
 .nutrition-data > div {
   display: flex;
   gap: 1rem;
+  padding-inline: 2rem;
+  /* border-bottom: 1px solid var(--stone-150); */
+  /* margin-bottom: 0.75rem; */
 }
+
+.nutrition-data > div > p {
+  flex: 1;
+}
+
+.nutrition-data > div .data-col1 {
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
+}
+
+.nutrition-data > div .data-col2 {
+  font-family: "Outfit", sans-serif;
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+/* .nutrition-data > div:last-child {
+  border-bottom: none;
+}
+ */
