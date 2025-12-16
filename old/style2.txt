@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid lightgreen; */
 }
 
 :root {
@@ -26,6 +27,7 @@ body {
 
 .recipe-page {
   background-color: var(--white);
+  /* color: var(--stone-600); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,6 +153,9 @@ ul {
 }
 
 .prep-steps > li {
+  /* display: flex; */
+  /* align-items: baseline; */
+  /* gap: 1rem; */
   padding-left: 2rem;
   counter-increment: custom-count;
   position: relative;
@@ -186,6 +191,8 @@ ul {
   display: flex;
   gap: 1rem;
   padding-inline: 2rem;
+  /* border-bottom: 1px solid var(--stone-150); */
+  /* margin-bottom: 0.75rem; */
 }
 
 .nutrition-data > div > p {
@@ -202,3 +209,8 @@ ul {
   color: var(--brown-800);
   font-weight: bold;
 }
+
+/* .nutrition-data > div:last-child {
+  border-bottom: none;
+}
+ */
